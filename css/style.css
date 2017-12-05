@@ -1,0 +1,92 @@
+
+ h1 {
+	font-size: 70px;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+	position: relative;
+    top: 60px
+	
+
+}
+
+  
+
+ h2 {
+	font-size: 60px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: white;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	
+	text-shadow: #333 0 0 10px;
+	-webkit-animation-duration: 1s;
+    -webkit-animation-name: glow;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: glow;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+     -webkit-transform: rotate(-0deg);
+}
+
+ @-webkit-keyframes glow {
+        from { text-shadow: 0 0 0px black; }
+        to { text-shadow: 0 0 20px black; }
+    }
+
+
+
+
+
+
+
+body {
+	width: 720px;
+	height: 1280px;
+	background: white;
+
+
+}
+.container {
+	width: 670px;
+	height: 1230px;
+	margin-left: 20%;
+    margin-top: 20%;
+	
+}
+
+.container img {
+	width: 670px;
+	height: 1000px;
+}
+#two {
+	position: absolute;
+	bottom: 200px;
+    left: 200px;
+    -moz-box-shadow: 0 0 5px #fff;
+-webkit-box-shadow: 0 0 5px #fff;
+box-shadow: 0px 0px 5px #fff;
+}
+
+
+a {
+	font-size: 55px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    padding: 20px;
+    position: relative;
+    text-decoration: none;
+    bottom: 550px;
+    left: 180px;
+    background: #333;
+
+}
+
+a:hover {
+	color: white;
+	background: red;
+}
+/*end*/
+
